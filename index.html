@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Wikipedia style page about Shri Mahaprabhuji (Vallabhacharya Ji) created by Satva Sheth. Includes lineage and biography.">
+  <title>Wikipedia About MahaPrabhuji | By Satva Sheth</title>
+  <link rel="icon" href="icon.ico" type="image/x-icon">
+
+  <!-- Google Font: Tiro Devanagari Sanskrit -->
+  <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: blanchedalmond;
+      font-family: 'Tiro Devanagari Sanskrit', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    #MahaPrabhujiphoto, #vanshavaliImage, h1, .वंशावली {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s ease forwards;
+    }
+
+    #MahaPrabhujiphoto {
+      animation-delay: 0.2s;
+      max-width: 100%;
+      height: auto;
+      border-radius: 20px;
+      margin: 20px auto;
+      display: block;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      color: #5a3e1b;
+      margin: 10px 0;
+      font-size: 2em;
+      animation-delay: 0.4s;
+    }
+
+    .वंशावली {
+      color: #7c4d12;
+      font-size: 1.8em;
+      margin-top: 5px;
+      animation-delay: 0.6s;
+    }
+
+    #vanshavaliImage {
+      width: 100%;
+      max-width: 1570px;
+      height: auto;
+      margin-top: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      animation-delay: 0.8s;
+    }
+
+    nav {
+      margin-top: 30px;
+    }
+
+    a:link, a:visited {
+      text-decoration: none;
+      color: #7c4d12;
+      border: 1px solid #7c4d12;
+      padding: 8px 16px;
+      border-radius: 8px;
+      display: inline-block;
+      transition: background-color 0.3s, color 0.3s;
+      font-weight: bold;
+    }
+
+    a:hover {
+      background-color: #7c4d12;
+      color: blanchedalmond;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 10px;
+      border-top: 1px solid #ccc;
+      font-size: 0.9em;
+      color: #5a3e1b;
+      background-color: beige;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <img src="Mahaprabhuji.jpeg" id="MahaPrabhujiphoto" alt="Mahaprabhuji Photo">
+
+  <h1>श्री महाप्रभु श्रीवल्लभाचार्य जी के घर की</h1>
+  <h1 class="वंशावली">वंशावली</h1>
+
+  <img src="vanshavali.png" id="vanshavaliImage" alt="वंशावली">
+
+  <nav>
+    <a class="jivancharitra" href="jivancharitra.html">जीवनचरित्र पढ़ें ➔</a>
+  </nav>
+
+  <footer>
+    <p>© 2025 Satva Sheth. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
